@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moad resto</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <header>
+        <h1>moad<br><b> bienvenue☕</b></h1>
+    </header>
+    <main>
+    <fieldset>
+        <legend>reservation:</legend>
+        <form action="page.php" method="get">
+        <label for="name">nom*:</label><br>
+        <input type="text" placeholder="nom" id="name" required><br>
+        <label for="prenom">prénom*:</label><br>
+        <input type="text" placeholder="prénom" id="prenom" required><br>
+        <label for="date">le jour et le temps*:</label><br>
+        <input type="datetime-local" id="date" required><br>
+        <input type="submit" value="envoyer">
+        <input type="reset" value="annuler">
+        <span>(*)=obligatoire</span>
+        </form>
+    </fieldset>
+    <a href="index.html">retour</a>
+</main>
+<footer>
+        
+    <span>adress:sidi moumene casablanca <br>
+    tel:0523415872</span> </footer>
+</body>
+</html>

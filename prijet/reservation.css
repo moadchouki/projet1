@@ -1,0 +1,44 @@
+body{
+    background-image: url(download.jfif);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+main{
+    margin-top: 100px;
+}
+fieldset{
+    width: 500px;
+    height: 500px;
+    margin-left: 350px;
+}
+h1{
+    font-style: italic;
+    text-shadow: 0 0 10px;
+    text-align: center;
+}
+form{
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+   font-style: italic;
+}
+footer{
+    text-align: center;
+    grid-area:footer;
+    margin-top: 150px;  
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    font-size: 40px;
+}
+legend{
+    font-size: 30px;
+}
+a:hover{
+ text-decoration:underline;
+}
+

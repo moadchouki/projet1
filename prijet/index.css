@@ -1,0 +1,81 @@
+body{
+    background-image: url(download.jfif);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main aside"
+    "footer footer";
+    min-height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr auto 0.25fr;
+}
+h1{
+    font-style: italic;
+    text-shadow: 0 0 10px;
+}
+header{
+   
+    text-align: center;
+    font-size: 30px;
+    grid-area: header;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    margin-top: -20px;
+  
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+    font-size: 30px;
+
+}
+nav{
+    background-color: antiquewhite;   
+    grid-area: nav;  
+    height: 50px;
+      
+}
+button{
+    border: none;
+    background-color: antiquewhite;
+    font-size: 30px;
+   border: 3px dashed;
+    
+}
+button:hover{
+   margin-top: -20px;
+    height: 50px;
+    border: 3px dashed ;
+    width:500px;
+}
+ul :nth-last-child(2){
+    margin-left: 100px;
+}
+img{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+   
+}
+footer{
+    text-align: center;
+    grid-area: footer;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+    font-size: 20px;
+    margin-left: -10px;
+}

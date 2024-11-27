@@ -1,0 +1,47 @@
+body{
+    background-image: url(download.jfif);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    main{
+        text-align: center;
+        }
+        h1{
+            font-style: italic;
+            text-shadow: 0 0 10px;
+            text-align: center;
+        }
+    footer{
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        left: 500px;
+        font-size: 20px;
+    }
+    .lol{
+     
+        position: absolute;
+        bottom: 50px;
+        font-size: 30px;
+    }
+    a.part{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+    .lala{
+        text-decoration: none;
+        color: black;
+    } 
+      a:hover{
+     text-decoration:underline;
+     font-size: 50px;
+    }
+    hr{
+        height: 3px;
+        background-color: black;
+        width: 500px;
+    }
+
+  

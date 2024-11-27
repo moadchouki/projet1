@@ -1,0 +1,47 @@
+body{
+    background-image: url(download.jfif);
+  
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.5fr 0.25fr;
+}
+header{
+    grid-area:header;
+    height: 50px;
+}
+main{
+    grid-area: main;
+    margin-top: 150px;
+}
+h1{
+    font-style: italic;
+    text-shadow: 0 0 10px;
+    text-align: center;
+}
+li{
+    font-size: 19px;
+}
+aside{
+    grid-area: aside;
+    margin-top: 150px;
+}
+footer{
+    text-align: center;
+    grid-area:footer;
+    margin-top: 150px;  
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    font-size: 40px;
+}
+a:hover{
+ text-decoration:underline;
+}
